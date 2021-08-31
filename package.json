@@ -8,10 +8,8 @@
         "build": "NODE_ENV=production vue-cli-service build"
     },
     "workspaces": [
-        "src/intiv/utils",
-        "src/intiv/core",
-        "src/modules/Core",
-        "src/modules/Sample"
+        "src/intiv/*",
+        "src/modules/*"
     ],
     "dependencies": {
         "@l00k/intiv-utils": "^0.0.1",
