@@ -1,6 +1,6 @@
-import App from '@/core/App';
-import { StoreManager } from '@/core/Store';
-import { ObjectManager } from '@100k/intiv/ObjectManager';
+import App from '@/intiv/core/App';
+import { StoreManager } from '@/intiv/core/Store';
+import { ObjectManager } from '@/intiv/utils/ObjectManager';
 import { Module, VuexModule } from 'vuex-module-decorators';
 
 

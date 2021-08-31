@@ -19,8 +19,8 @@
 </template>
 
 <script lang="ts">
-import { Component } from '@/core/Vue/Annotations';
-import BaseComponent from '@/core/Vue/BaseComponent.vue';
+import { Component } from '@/intiv/core/Vue/Annotations';
+import BaseComponent from '@/intiv/core/Vue/BaseComponent.vue';
 
 
 declare const window;

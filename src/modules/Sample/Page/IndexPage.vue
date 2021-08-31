@@ -14,8 +14,8 @@
 </template>
 
 <script lang="ts">
-import { Route, Component } from '@/core/Vue/Annotations';
-import BaseComponent from '@/core/Vue/BaseComponent.vue';
+import { Route, Component } from '@/intiv/core/Vue/Annotations';
+import BaseComponent from '@/intiv/core/Vue/BaseComponent.vue';
 import SampleView from '#/Sample/Component/SampleView.vue';
 import { namespace } from 'vuex-class';
 

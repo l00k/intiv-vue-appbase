@@ -1,5 +1,5 @@
-import App from './core/App';
-import { ObjectManager } from '@100k/intiv/ObjectManager';
+import App from '@/intiv/core/App';
+import { ObjectManager } from '@/intiv/utils/ObjectManager';
 import Buefy from 'buefy';
 import Vue from 'vue';
 import VueRouter from 'vue-router';
