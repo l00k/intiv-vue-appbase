@@ -15,7 +15,7 @@
         "@l00k/intiv-utils": "^0.0.1",
         "@l00k/intiv-vue-core": "^0.0.1",
         "@l00k/intiv-vue-mod-core": "^0.0.1",
-        "@app/module-sample": "^0.0.1",
+        "@app/sample": "^0.0.1",
         "@fortawesome/fontawesome-free": "^5.15.3",
         "@fortawesome/fontawesome-svg-core": "^1.2.35",
         "@fortawesome/free-regular-svg-icons": "^5.15.3",
