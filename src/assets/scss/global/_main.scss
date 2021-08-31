@@ -1,0 +1,37 @@
+html {
+    font-size: 14px;
+    -webkit-overflow-scrolling: auto;
+}
+
+body, button, input, select, textarea {
+    font-size: 14px;
+    font-variant: small-caps;
+    -webkit-overflow-scrolling: auto;
+}
+
+#app {
+    margin: 50px auto;
+    width: 1480px;
+    max-width: calc(100% - 60px);
+}
+
+.field.is-floating-label .label:before {
+    display: none;
+}
+
+.has-font-size-xs {
+    font-size: 0.65em;
+}
+.has-font-size-sm {
+    font-size: 0.85em;
+}
+.has-font-size-lg {
+    font-size: 1.25em;
+}
+.has-font-size-xl {
+    font-size: 1.5em;
+}
+
+.button {
+    text-transform: capitalize;
+}

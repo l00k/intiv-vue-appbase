@@ -1,0 +1,39 @@
+.b-table {
+    &.is-loading {
+        min-height: 200px;
+    }
+
+    .table {
+        tr.detail {
+            background: none;
+            box-shadow: none;
+
+            .detail-container {
+                padding: 0;
+            }
+            td {
+                border-top: none;
+            }
+        }
+    }
+
+    td {
+        vertical-align: middle;
+    }
+
+    .button {
+        height: 1.5em;
+        padding: 0 8px;
+    }
+
+    &__cell {
+        &--actions {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            min-height: 28px;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+.m-page {
+    transition: all 0.5s;
+
+    &.is-loading {
+        opacity: 0.5;
+        filter: blur(20px);
+    }
+}
