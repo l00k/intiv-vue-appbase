@@ -17,5 +17,8 @@ Vue.use(Buefy, {
 Vue.use(VTooltip);
 
 (async () => {
-    ObjectManager.getInstance(App).run();
+    const objectManager = ObjectManager.getSingleton();
+    const app = objectManager.getInstance(App);
+    await app.run();
+    objectManager.releaseAll();
 })();
